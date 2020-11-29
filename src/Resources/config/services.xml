@@ -12,5 +12,11 @@
             <argument>BuyPlanEstonia\PayumBuyPlan\BuyPlanGatewayFactory</argument>
             <tag name="payum.gateway_factory_builder" factory="buyplan"/>
         </service>
+
+        <service id="buyplan_estonia_sylius_buyplan.payum_action.buyplan.convert_payment"
+                 class="BuyPlanEstonia\SyliusBuyPlanPlugin\Action\ConvertPaymentAction"
+                 public="true">
+            <tag name="payum.action" factory="buyplan"/>
+        </service>
     </services>
 </container>
