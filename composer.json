@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "sylius/sylius": "~1.5.0@rc",
+        "sylius/sylius": "^1.5.0",
         "buyplan-estonia/payum-buyplan": "^1.0.0",
         "ext-json": "*"
     },
